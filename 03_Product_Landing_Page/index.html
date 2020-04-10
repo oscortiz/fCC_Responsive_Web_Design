@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">	
+	<title>Product Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+</head>
+
+<body>
+	
+	<div id="content">
+  		<header id="header">  
+    		<div class="logo">
+				  <a class="nav-link" href="#register">
+					<img id="header-img" src="./Using_Electronics.png" alt="Using Electronics Logo" />
+				  </a>
+    		</div>  
+    		<nav id="nav-bar">
+      			<a class="nav-link" href="#features">Features</a>
+      			<a class="nav-link" href="#works">How it works</a>
+      			<a class="nav-link" href="#pricing">Pricing</a>
+    		</nav>  
+  		</header>
+
+  		<main class="container">
+    		<section id="register">
+      			<form id="form" action="https://www.freecodecamp.com/email-submit">
+        			<h1>Register to Using Electronics:</h1>
+        			<input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        			<input type="submit" id="submit" value="Register"></input>
+      			</form>
+    		</section>
+
+    		<section id="features">
+      			<h1>Arduino UNO Features</h1>
+      			<img id="image" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Pinout_of_ARDUINO_Board_and_ATMega328PU.svg" alt="Arduino UNO Imagen de wikimedia">
+      			<div id="img-caption">Source: <a href="https://commons.wikimedia.org/wiki/File:Pinout_of_ARDUINO_Board_and_ATMega328PU.svg">Pinout of ARDUINO Board and ATMega328PU</a></div>
+    		</section>
+  
+    		<section id="works">
+      			<h1>How It Works - Top 10 Arduino UNO Projects</h1>
+      			<iframe id="video" height="315" width="560" src="https://www.youtube.com/embed/eJg3yuAAawA" frameborder="0" allowfullscreen></iframe>
+    		</section>
+
+    		<section id="pricing">
+      			<h1>Pricing</h1>
+      			<div id="elements">
+        			<div class="element">
+          				<h1>Arduino UNO rev 3</h1>
+          				<h2>€20.00</h2>          
+          				<ul>
+            				<li>Microcontroller:	ATmega328P</li>
+            				<li>Digital I/O Pins:	14 (of which 6 provide PWM output)</li>
+            				<li>PWM Digital I/O Pins:	6</li>
+            				<li>Analog Input Pins:	6</li>
+          				</ul>
+          				<button class="btn">Select</button>
+        			</div>
+        			<div class="element">
+          				<h1>Arduino 4 Relays Shield</h1>
+          				<h2>€20.00</h2>          
+          				<ul>
+            				<li>Thinker Kit interface:	2x TWI, 2x OUT, 2x IN</li>
+            				<li>Interfaces with Arduino Board:	DIO</li>
+            				<li>Relays:	4 (60W)</li>
+          				</ul>
+          				<button class="btn">Select</button>
+        			</div>
+        			<div class="element">
+          				<h1>Arduino Motor Shield rev 3</h1>
+          				<h2>€20.00</h2>          
+          				<ul>
+            				<li>Motor controller:	L298P, Drives 2 DC motors or 1 stepper motor</li>
+            				<li>Operating Voltage:	5V to 12V</li>
+            				<li>Max current:	2A per channel or 4A max (with external power supply)</li>
+            				<li>Free running stop and brake function</li>
+          				</ul>
+          				<button class="btn">Select</button>
+        			</div>        
+      			</div>
+    		</section>
+  		</main>
+
+  		<footer id="pie">
+    		Original Product Landing Page code (freeCodeCamp): <a href="https://codepen.io/freeCodeCamp/full/RKRbwL/" target="_blank"><strong>FCC: Product Landing Page</strong></a> 
+  		</footer>
+	</div>
+
+</body>
+
+</html>

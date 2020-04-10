@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+html, body {
+  font-family: Dosis, "Trebuchet MS";
+  font-size: 18px;
+  text-align: center;
+  background-color: #e6ffee;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#content {
+  margin-top: 130px;
+}
+
+h1 {
+  padding-bottom: 10px;
+}
+
+#header { 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  background-color: #b3ffcc;
+}
+
+.logo {
+  flex: 1 0 15%;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;  
+  flex: 1 0 75%;  
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#nav-bar a {    
+  font-weight: bold;
+}
+
+a:hover {
+  color: #006622;
+}
+
+main {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+#register,
+#features,
+#works ,
+#pricing {
+  margin-top: -130px;
+  padding-top: 130px;
+  padding-bottom: 80px;;
+}
+
+#form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#form input[type=email] { 
+  margin: auto;
+  height: 25px;
+  width: 400px;
+  max-width: 100%;
+  padding-left: 5px;  
+}
+
+#submit,
+.btn {
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #009933;
+  border-color: #009933;
+  border-radius: 5px;
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#submit:hover,
+.btn:hover {
+  background-color: #006622;
+  border-color: #006622;
+  color: #fff;
+}
+
+#image,
+#video {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+#img-caption{
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#elements {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid #004d1a;
+  border-radius: 5px;
+  background-color: #b3ffcc;
+  padding: 10px;  
+  margin: 1% auto;
+  width: 300px;
+  height: auto;
+  max-width: 75%;
+}
+
+.element:hover {
+  -moz-box-shadow: 0px 3px 3px 2px #aaa;
+  -webkit-box-shadow: 0px 3px 3px 2px #aaa;
+  box-shadow: 0px 3px 3px 2px #aaa;  
+}
+
+.element h1 {
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+}
+
+#pie {
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #b3ffcc;
+}
+
+@media screen and (max-width: 500px) {
+  #form input[type=email] {  
+    width: 80%;
+  }
+}
